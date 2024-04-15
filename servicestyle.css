@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  height: 100vh;
+  background-image: url(https://freevector-images.s3.amazonaws.com/uploads/vector/preview/40695/FreevectorLuxury-Beige-BackgroundAS0821_generated.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.bx1 {
+  padding-left: 80vh;
+  padding-top: 5vh;
+  text-shadow: 12px -2px 12px;
+}
+
+.bx2 {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.item {
+  display: flex;
+  box-shadow: 5px 15px 3px rgb(160, 146, 146);
+  flex-direction: column;
+}
+
+.item,
+h3 {
+  margin-top: 5vh;
+  text-shadow: silver 12px -2px 12px;
+
+}
+
+.item,
+p {
+  margin-top: 2vh;
+}
+
+.bx3 {
+  margin-top: 30vh;
+  padding-left: 70vh;
+}
+
+.bx4 {
+  margin-top: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.logo,
+img {
+  height: 50vh;
+  width: 20vw;
+}
+
+.image,
+img {
+
+  border-radius: 20px;
+}

@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  color: green;
+}
+
+body {
+  height: 100vh;
+  background-image: url(https://freevector-images.s3.amazonaws.com/uploads/vector/preview/40695/FreevectorLuxury-Beige-BackgroundAS0821_generated.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.bx {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
+}
+
+.box1 {}
+
+.box2 {
+  height: 100vh;
+  width: 50vw;
+}
+
+.box2 img {
+  height: 100%;
+  width: 100%;
+}
+
+.contact {
+  margin-top: 10%;
+  display: grid;
+  grid-template-rows: 20px 20px 20px 20px;
+  gap: 15px;
+}

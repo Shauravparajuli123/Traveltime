@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+}
+
+body {
+  background: url(travelpic.jpeg) no-repeat;
+  background-position: center;
+}
+
+.head {
+  margin-top: 20px;
+  height: 15vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+
+
+a {
+  color: rgb(255, 255, 255);
+}
+
+a {
+  text-decoration: none;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  padding-right: 15%;
+}
+
+.logo {
+
+  margin-left: 50px;
+
+}
+
+.mainbody {
+  margin-top: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 30vh;
+  display: grid;
+  grid-template-rows: 40% 20%;
+  gap: 1%;
+
+}
+
+.button {
+  margin-left: 15%;
+
+}
+
+button {
+  height: 8vh;
+  width: 15vw;
+  background-color: rgb(189, 178, 178);
+}
+
+a:hover {
+  background-color: whitesmoke;
+}
+
+button:hover {
+  background-color: whitesmoke;
+}
+
+h1,
+p {
+  color: whitesmoke;
+}
